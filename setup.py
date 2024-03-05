@@ -2,7 +2,7 @@ from distutils.core import setup
 
 
 setup(
-  name='eloquentarduino',
+  name='eloquent_edgeimpulse',
   packages=['eloquent_edgeimpulse'],
   version='1.0.0',
   license='MIT',

@@ -8,6 +8,12 @@ To run EI models from Python, you have to deploy a `.eim`
 file in the Deployment section by selecting either `Linux` or `macOS`
 and make it executable.
 
+Then, install from pip.
+
+```bash
+pip install -U eloquent_edgeimpulse
+```
+
 
 ## FOMO object detection
 
