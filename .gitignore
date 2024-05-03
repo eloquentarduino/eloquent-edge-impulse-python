@@ -2,3 +2,5 @@
 .idea
 __pycache__
 eloquentarduino.egg-info
+publish.sh
+setup_template.py

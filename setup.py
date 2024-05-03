@@ -4,7 +4,7 @@ from distutils.core import setup
 setup(
   name='eloquent_edgeimpulse',
   packages=['eloquent_edgeimpulse'],
-  version='1.0.0',
+  version='1.0.1',
   license='MIT',
   description='A wrapper for Edge Impulse Linux package',
   author='Simone Salerno',
