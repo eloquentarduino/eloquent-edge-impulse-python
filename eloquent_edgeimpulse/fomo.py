@@ -85,7 +85,7 @@ class Fomo:
             image = (image * 255).astype(int)
 
         # convert 2D image to 3D image (RGB)
-        if len(image) == 2 or image.shape[2] == 1:
+        if len(image.shape) == 2 or image.shape[2] == 1:
             gray = image.reshape(image.shape[:2])
             image = np.dstack((gray, gray, gray))
 
